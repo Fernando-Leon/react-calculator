@@ -1,0 +1,29 @@
+.btn-cotainer {
+    border-radius: 100%;
+    display: grid;
+    place-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.btn-1 {
+    background-color: #FE9427;
+    color: #FFFFFF;
+}
+
+.btn-2 {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.btn-1:hover, .btn-2:hover {
+    background-color: #A7A7A7;
+    color: #000000;
+    transition: .2s;
+}
+
+.delete {
+    width: 100%;
+    
+}
